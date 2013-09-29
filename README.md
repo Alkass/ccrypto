@@ -24,15 +24,11 @@ To compile all 3 tools, simply run the attached `compile.sh` script with root pe
 
 How-to Use:
 ===========
-  `keygen`:
+`keygen`:
+  To generate a new private key, simple type in `keygen` into Terminal. To save generated private key, use the output redirection feature supported in Linux/Mac OS X (i.e. '>') followed by desired private key file name (You're not obligated to have a file extension).
+    `keygen > myPrivateKey.key` #this will save your private key into a new file named MyPrivateKey.key in present directory.
   
-            - To generate a new private key, simple type in `keygen` into Terminal.
-            - To save generated private key, use the output redirection feature supported in Linux/Mac OS X (i.e. '>') followed by desired private key file name (You're not obligated to have a file extension).
-                Example:
-                        `keygen > myPrivateKey.key` #this will save your private key into a new file named MyPrivateKey.key in present directory.
-  `encrypt`:
-            - To 
-            -
+           
             
 Author:
 =======
