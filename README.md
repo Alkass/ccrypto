@@ -9,7 +9,7 @@ Description:
 
 How-to Compile:
 ==============
-To compile, simply run the attached `compile.sh` script with root permissions (i.e. sudo ./compile.sh)
+      To compile all 3 tools, simply run the attached `compile.sh` script with root permissions (i.e. sudo ./compile.sh)
 
 
 
