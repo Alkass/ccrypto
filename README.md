@@ -3,9 +3,18 @@ Text File Envryption/Decryption Utilities, C++
 
 Description:
 ============
+This is a text file encryption/decryption program written in C++.
+
+
+How does it Work?
+=================
 
 
 
+Requirements:
+=============
+  1. Debian-based Linux distro.
+  2. g++ compiler built-in to the system.
 
 How-to Compile:
 ==============
