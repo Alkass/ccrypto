@@ -40,7 +40,7 @@ How-to Use
  
 Note(s)
 ========
-1. This is a non-gui application, meaning that all operations are to be performed through a command line interface (e.g. Terminal)
+1. This is a non-GUI application, meaning that all operations are to be performed through a command line interface (e.g. Terminal)
 2. None of the three utilities perform any error-checking/-handeling, So if you were to give the program wrong input, do NOT expect an error message explaining what went wrong. 
 
 
