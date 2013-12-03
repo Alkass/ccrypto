@@ -1,4 +1,4 @@
-Text File Encryption/Decryption Utilities
+File Encryptor/Decryptor
 =========================================
 
 Description
@@ -17,12 +17,12 @@ Requirements
   2. g++ compiler built-in to the system.
 
 
-How-to Compile
+Build
 ==============
-To compile all 3 tools, simply run the attached `compile.sh` script with root permissions (i.e. sudo ./compile.sh)
+To `build` all 3 tools, simply run the attached `compile.sh` script with root permissions (i.e. `sudo ./build`)
 
 
-How-to Use
+Usage
 ===========
   - To generate a new private key, simply type in `keygen` into Terminal.
   - To save generated private key, use the output redirection feature supported in Linux/Mac OS X (i.e. '>') followed by desired private key file name (You're not obligated to have a file extension).
@@ -40,7 +40,7 @@ How-to Use
  
 Note(s)
 ========
-1. This is a non-GUI application, meaning that all operations are to be performed through a command line interface (e.g. Terminal)
+1. This software is a non-GUI application, meaning that all operations are to be performed within the command-line environment (e.g. Terminal)
 2. None of the three utilities perform any error-checking/-handeling, So if you were to give the program wrong input, do NOT expect an error message explaining what went wrong. 
 
 
