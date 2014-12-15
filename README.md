@@ -3,7 +3,7 @@ File Encryptor/Decryptor
 
 Description
 ============
-This is a text file encryption/decryption program written in C++.
+<h1> This is a text file encryption/decryption program written in C++. </h1>
 
 
 How does it Work?
