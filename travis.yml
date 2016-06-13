@@ -1,6 +1,6 @@
 language: cpp
 compiler: g++
 script:
-- g++ 
-- g++
-- g++
+- g++ -Wall -Werror -O3 -o keygen keygen.cpp
+- g++ -Wall -Werror -O3 -o keygen encryptor.cpp
+- g++ -Wall -Werror -O3 -o keygen decryptor.cpp
