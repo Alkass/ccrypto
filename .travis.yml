@@ -1,4 +1,4 @@
 language: cpp
 compiler: g++
 sudo: required
-script: make install
+script: sudo make install
