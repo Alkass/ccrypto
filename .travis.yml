@@ -1,6 +1,5 @@
 language: cpp
 compiler: g++
+sudo: required
 script:
-- g++ -Wall -Werror -O3 -o keygen keygen.cpp
-- g++ -Wall -Werror -O3 -o keygen encryptor.cpp
-- g++ -Wall -Werror -O3 -o keygen decryptor.cpp
+- make install
