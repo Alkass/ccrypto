@@ -1,4 +1,8 @@
 language: cpp
 compiler: g++
 sudo: required
-script: make
+script:
+- g++ -Wall -Werror -O3 -o keygen keygen.cpp
+- g++ -Wall -Werror -O3 -o encryptor encryptor.cpp
+- g++ -Wall -Werror -O3 -o decryptor decryptor.cpp
+- sudo mv keygen encryptor decryptor /bin/
