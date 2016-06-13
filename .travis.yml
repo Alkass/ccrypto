@@ -2,4 +2,4 @@ language: cpp
 compiler: g++
 sudo: required
 script:
-- make install
+- sudo make install
