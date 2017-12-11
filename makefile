@@ -1,11 +1,19 @@
 CC = g++
 CC_ARGS = -Wall -Werror -O3
 
-build: keygen.cpp encryptor.cpp decryptor.cpp
-	$(CC) ${CC_ARGS} -o keygen keygen.cpp
-	$(CC) ${CC_ARGS} -o encrypt encryptor.cpp
-	$(CC) ${CC_ARGS} -o decrypt decryptor.cpp
+all: keygen encrypt decrypt
 
-install:
-	make build
-	sudo mv keygen encrypt decrypt /bin/
+keygen: keygen.o
+	$(CC) $(CC_ARGS) -o keygen keygen.o
+
+encrypt: encryptor.o
+	$(CC) $(CC_ARGS) -o encrypt encryptor.o
+
+decrypt: decryptor.o
+	$(CC) $(CC_ARGS) -o decrypt decryptor.o
+
+install: all
+	sudo cp keygen encrypt decrypt /usr/bin/
+	
+clean:
+	rm -f *.o
